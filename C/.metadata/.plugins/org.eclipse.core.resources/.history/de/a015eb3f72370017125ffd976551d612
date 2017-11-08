@@ -1,0 +1,17 @@
+/*
+ * main.h
+ *
+ *  Created on: 12 de mai de 2017
+ *      Author: fjunger
+ */
+
+#ifndef MAIN_H_
+#define MAIN_H_
+
+class main {
+public:
+	main();
+	virtual ~main();
+};
+
+#endif /* MAIN_H_ */

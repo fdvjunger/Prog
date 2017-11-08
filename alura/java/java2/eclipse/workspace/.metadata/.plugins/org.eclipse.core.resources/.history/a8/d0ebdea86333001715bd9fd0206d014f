@@ -1,0 +1,8 @@
+
+public class Test {
+	public static void main(String[] args) {
+		Materia calculo1 = new Materia();
+		
+		calculo1.setnome("CÁLCULO1 1");
+	}
+}

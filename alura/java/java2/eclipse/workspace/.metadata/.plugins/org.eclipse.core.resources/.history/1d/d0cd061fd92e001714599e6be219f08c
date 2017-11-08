@@ -1,0 +1,13 @@
+package fj11;
+
+public class ContaPoupanca extends Conta{
+	
+	public ContaPoupanca(String nome, double saldo) {
+		super(nome, saldo);
+	}
+
+	public void atualiza(double taxa){
+		this.saldo+=this.saldo*taxa*0.03;
+	}
+
+}

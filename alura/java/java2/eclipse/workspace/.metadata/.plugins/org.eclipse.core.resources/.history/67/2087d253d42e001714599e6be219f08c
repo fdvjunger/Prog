@@ -1,0 +1,6 @@
+package fj11;
+
+public class ContaCorrente extends Conta{
+	
+
+}

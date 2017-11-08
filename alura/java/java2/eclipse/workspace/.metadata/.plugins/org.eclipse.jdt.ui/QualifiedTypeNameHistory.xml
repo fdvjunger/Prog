@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.swing.SingleSelectionModel"/>
+<fullyQualifiedTypeName name="fj11.Conta"/>
+<fullyQualifiedTypeName name="fj11.ContaPoupanca"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicTreeUI.SelectionModelPropertyChangeHandler"/>
+<fullyQualifiedTypeName name="fj11.Atualizador"/>
+<fullyQualifiedTypeName name="interfaces.Retangulo"/>
+<fullyQualifiedTypeName name="interfaces.AreaCalculavel"/>
+<fullyQualifiedTypeName name="interfaces.Circulo"/>
+<fullyQualifiedTypeName name="fj11.Tributavel"/>
+<fullyQualifiedTypeName name="fj11.GerenciadorDeImpostoDeRenda"/>
+<fullyQualifiedTypeName name="fj11.SeguroDeVida"/>
+<fullyQualifiedTypeName name="fj11.TestaGerenciadorDeImpostoDeRenda"/>
+<fullyQualifiedTypeName name="fj11.ContaCorrente"/>
+<fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="fj11.ValorInvalidoException"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="prerequisitos"/>
+<fullyQualifiedTypeName name="javax.swing.JFrame"/>
+<fullyQualifiedTypeName name="Materia"/>
+</qualifiedTypeNameHistroy>

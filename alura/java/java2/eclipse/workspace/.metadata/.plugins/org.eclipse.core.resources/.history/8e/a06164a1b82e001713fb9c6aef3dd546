@@ -1,0 +1,12 @@
+package fj11;
+
+import javax.swing.SingleSelectionModel;
+
+public class TestaConta {
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+		conta.setNome("Mario");
+		
+		System.out.println(conta.nome);
+	}
+}

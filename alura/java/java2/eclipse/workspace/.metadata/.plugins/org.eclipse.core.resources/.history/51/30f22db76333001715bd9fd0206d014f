@@ -1,0 +1,10 @@
+
+public class Test {
+	private static Materia calculo1;
+
+	public static void main(String[] args) {
+		calculo1 = new Materia(360);
+		
+		calculo1.setnome("CÁLCULO1 1");
+	}
+}

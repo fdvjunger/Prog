@@ -1,0 +1,23 @@
+package fj11;
+
+public class TestaConta {
+	public static void main(String[] args) {
+		
+		ContaCorrente contaCorrente = new ContaCorrente("junger", 120, 100.5);
+		ContaPoupanca contaPoupanca = new ContaPoupanca("fjunger", 120, 150.3);
+
+		contaCorrente.imprime();
+		contaPoupanca.imprime();
+		
+		try{
+			contaCorrente.deposita(-1);
+		}catch (IllegalArgumentException e) {
+			System.out.println(e.getMessage());
+			System.out.println(contaCorrente.getSaldo());
+		}
+		Atualizador atualizador = new Atualizador(0.05);
+		atualizador.roda(contaCorrente);
+		atualizador.roda(contaPoupanca);
+
+	}
+}

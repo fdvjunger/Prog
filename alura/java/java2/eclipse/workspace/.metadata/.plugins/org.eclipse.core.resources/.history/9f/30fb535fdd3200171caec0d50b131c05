@@ -1,0 +1,64 @@
+
+public abstract class Materia {
+	
+	private String nome;
+	private int dps;
+	private double n1;
+	private double n2;
+	private double media;
+	private int prerequisito;
+	private String prereq;
+	private int codigo;
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int getDps() {
+		return dps;
+	}
+	public void setDps(int dps) {
+		this.dps = dps;
+	}
+	public double getN1() {
+		return n1;
+	}
+	public void setN1(double n1) {
+		this.n1 = n1;
+	}
+	public double getN2() {
+		return n2;
+	}
+	public void setN2(double n2) {
+		this.n2 = n2;
+	}
+	public int getPrerequisito() {
+		return prerequisito;
+	}
+	public void setPrerequisito(int prerequisito) {
+		this.prerequisito = prerequisito;
+	}
+	public String getPrereq() {
+		return prereq;
+	}
+	public void setPrereq(String prereq) {
+		this.prereq = prereq;
+	}
+	public int getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+	public double getMedia() {
+		return media;
+	}
+	public void setMedia() {
+		this.media = (this.n1+this.n2)/2;
+	}
+	
+	
+	
+}

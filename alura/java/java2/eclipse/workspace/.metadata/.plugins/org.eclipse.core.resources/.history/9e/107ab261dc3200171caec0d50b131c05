@@ -1,0 +1,14 @@
+
+public abstract class Materia {
+	
+	private String nome;
+	private int dps;
+	private double n1;
+	private double n2;
+	private int prerequisito;
+	private String prereq;
+	private int codigo;
+	
+	
+	
+}

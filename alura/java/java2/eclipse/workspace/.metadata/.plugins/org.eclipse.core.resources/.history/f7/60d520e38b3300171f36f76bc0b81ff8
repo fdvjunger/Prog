@@ -1,0 +1,10 @@
+
+public class Test {
+	public static void main(String[] args) {
+		Materia calculo1 = new Materia(360);
+		
+		calculo1.setnome("CÁLCULO1 1");
+		calculo1.prerequisitos[1]=361;
+		calculo1.imprime();
+	}
+}

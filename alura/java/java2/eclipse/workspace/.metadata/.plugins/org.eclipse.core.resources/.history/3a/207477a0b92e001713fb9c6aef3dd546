@@ -1,0 +1,11 @@
+package fj11;
+
+public class TestaConta {
+	public static void main(String[] args) {
+		Conta conta = new Conta();
+		conta.setNome("Mario");
+		conta.imprime();
+	
+		System.out.println(conta.getNome());
+	}
+}

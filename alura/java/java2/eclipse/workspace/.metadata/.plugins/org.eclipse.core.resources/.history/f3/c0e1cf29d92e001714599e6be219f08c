@@ -1,0 +1,15 @@
+package fj11;
+
+public class TestaConta {
+	public static void main(String[] args) {
+		Conta conta = new Conta("mario",1000.5);
+		ContaCorrente contaCorrente = new ContaCorrente("junger",100.5);
+		ContaPoupanca contaPoupanca = new ContaPoupanca("fjunger",150.3);
+		
+		conta.imprime();
+		contaCorrente.imprime();
+		contaPoupanca.imprime();
+	
+		System.out.println(conta.getNome());
+	}
+}

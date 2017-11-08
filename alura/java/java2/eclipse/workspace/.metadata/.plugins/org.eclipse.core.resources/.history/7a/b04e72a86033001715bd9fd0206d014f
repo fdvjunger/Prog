@@ -1,0 +1,7 @@
+
+public class prerequisitos {
+	private String nome;
+	private String codigo;
+	private boolean sit;
+	
+}
