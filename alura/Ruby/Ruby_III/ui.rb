@@ -1,4 +1,6 @@
 def da_boas_vindas
+	system("cls")
+	system("clear")
 	puts "Bem vindo ao jogo"
 	puts "Qual o seu nome?"
 	nome = gets.strip
@@ -8,6 +10,7 @@ def da_boas_vindas
 end
 
 def desenha_mapa(mapa)
+	system("cls")
 	system("clear")
 	puts mapa
 end
